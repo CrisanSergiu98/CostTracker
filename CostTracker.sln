@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33801.468
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8B97344D-86BD-4FDA-BF1B-CE3E2DB3FD70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostTrackerUI", "CostTrackerUI\CostTrackerUI.csproj", "{A500657B-27AE-4942-82F4-31AE1234CFBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostTrackerDomain", "CostTrackerDomain\CostTrackerDomain.csproj", "{8F46E3EE-072C-4C8E-9814-6245BE68E2F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostTrackerApplciation", "CostTrackerApplciation\CostTrackerApplciation.csproj", "{E5D2BC9F-1BEC-476C-9DDD-B7BB5E94DA1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostTrackerPresentation", "CostTrackerPresentation\CostTrackerPresentation.csproj", "{3CE0EE89-DA2C-4BFE-9D51-FB6B6BC1B673}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostTrackerPersistence", "CostTrackerPersistence\CostTrackerPersistence.csproj", "{FBA7B8D1-71FC-46DD-B77C-6234F88F449E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostTrackerInfrastructure", "CostTrackerInfrastructure\CostTrackerInfrastructure.csproj", "{7AA66540-A8D9-4B0C-BE58-65D0FDB53E29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A500657B-27AE-4942-82F4-31AE1234CFBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A500657B-27AE-4942-82F4-31AE1234CFBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A500657B-27AE-4942-82F4-31AE1234CFBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A500657B-27AE-4942-82F4-31AE1234CFBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F46E3EE-072C-4C8E-9814-6245BE68E2F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F46E3EE-072C-4C8E-9814-6245BE68E2F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F46E3EE-072C-4C8E-9814-6245BE68E2F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F46E3EE-072C-4C8E-9814-6245BE68E2F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5D2BC9F-1BEC-476C-9DDD-B7BB5E94DA1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D2BC9F-1BEC-476C-9DDD-B7BB5E94DA1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5D2BC9F-1BEC-476C-9DDD-B7BB5E94DA1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D2BC9F-1BEC-476C-9DDD-B7BB5E94DA1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CE0EE89-DA2C-4BFE-9D51-FB6B6BC1B673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE0EE89-DA2C-4BFE-9D51-FB6B6BC1B673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE0EE89-DA2C-4BFE-9D51-FB6B6BC1B673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE0EE89-DA2C-4BFE-9D51-FB6B6BC1B673}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBA7B8D1-71FC-46DD-B77C-6234F88F449E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBA7B8D1-71FC-46DD-B77C-6234F88F449E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBA7B8D1-71FC-46DD-B77C-6234F88F449E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBA7B8D1-71FC-46DD-B77C-6234F88F449E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AA66540-A8D9-4B0C-BE58-65D0FDB53E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA66540-A8D9-4B0C-BE58-65D0FDB53E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA66540-A8D9-4B0C-BE58-65D0FDB53E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA66540-A8D9-4B0C-BE58-65D0FDB53E29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A500657B-27AE-4942-82F4-31AE1234CFBE} = {8B97344D-86BD-4FDA-BF1B-CE3E2DB3FD70}
+		{8F46E3EE-072C-4C8E-9814-6245BE68E2F9} = {8B97344D-86BD-4FDA-BF1B-CE3E2DB3FD70}
+		{E5D2BC9F-1BEC-476C-9DDD-B7BB5E94DA1D} = {8B97344D-86BD-4FDA-BF1B-CE3E2DB3FD70}
+		{3CE0EE89-DA2C-4BFE-9D51-FB6B6BC1B673} = {8B97344D-86BD-4FDA-BF1B-CE3E2DB3FD70}
+		{FBA7B8D1-71FC-46DD-B77C-6234F88F449E} = {8B97344D-86BD-4FDA-BF1B-CE3E2DB3FD70}
+		{7AA66540-A8D9-4B0C-BE58-65D0FDB53E29} = {8B97344D-86BD-4FDA-BF1B-CE3E2DB3FD70}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE9BC90F-39E1-40A4-A027-DD26F8F5BF9F}
+	EndGlobalSection
+EndGlobal
