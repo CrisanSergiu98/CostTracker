@@ -1,41 +1,40 @@
-﻿using CostTrackerDomain.Amount;
-using CostTrackerDomain.Primitives;
-using System.Reflection.Emit;
+﻿using CostTrackerDomain.Primitives;
+using CostTrackerDomain.ValueObjects;
 
-namespace CostTrackerDomain.FinancialEvent;
+namespace CostTrackerDomain.FinancialEvents;
 
-public class FinancialEvent: Entity
+public class FinancialEvent: AggregateRoot
 {
     private FinancialEvent(
         Guid id,
         string note,
-        Amount.Amount amount,
+        Amount amount,
         DateTime date,
-        Label label
+        Guid labelId
         ):base(id)
     {
         Note = note;
         Amount = amount;
         Date = date;
-        Label = label;
+        LabelId = labelId;
     }
     public string Note { get; private set; }
-    public Amount.Amount Amount { get; private set; }
+    public Amount Amount { get; private set; }
     public DateTime Date { get; private set; }
-    public Label Label { get; private set; }
-    public FinancialEvent CreateEvent(
+    public Guid LabelId{ get; private set; }
+    public static FinancialEvent CreateEvent(
         Guid id,
         string note,
-        Amount.Amount amount,
+        Amount amount,
         DateTime date,
-        Label label) 
+        Guid labelId) 
     { 
         FinancialEvent financialEvent = new FinancialEvent(
             id,
             note,
             amount,
             date,
-            label);
+            labelId);
         return financialEvent;
 
     }
