@@ -1,7 +1,4 @@
-﻿using CostTrackerDomain.Shared;
-using System;
-
-namespace CostTrackerDomain.Shared
+﻿namespace CostTrackerDomain.Shared
 {
     /// <summary>
     /// Represents the result of some operation, with status information and possibly a value and an error.

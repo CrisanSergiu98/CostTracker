@@ -4,12 +4,12 @@ using CostTrackerDomain.ValueObjects;
 
 namespace CostTrackerDomain.Labels;
 
-public class Label : AggregateRoot
+public sealed class Label : AggregateRoot
 {
     private Label(
         Guid Id,
-        string name,
-        string description,
+        LabelName name,
+        LabelDescription description,
         Amount targetAmount,
         LabelCategory category,
         Guid UserId
@@ -21,15 +21,15 @@ public class Label : AggregateRoot
         Category = category;
         
     }
-    public string Name { get; private set; }
-    public string Description { get; private set; }
+    public LabelName Name { get; private set; }
+    public LabelDescription Description { get; private set; }
     public Amount TargetAmount { get; private set; }
     public LabelCategory Category { get; set; }
     public Guid UserId { get; private set; }
     public static Result<Label> Create(
         Guid id,
-        string name,
-        string description,
+        LabelName name,
+        LabelDescription description,
         Amount targetAmount,
         LabelCategory category,
         Guid userId
@@ -44,6 +44,6 @@ public class Label : AggregateRoot
             userId
             );
         return label;
-    }
+    }    
 }
 

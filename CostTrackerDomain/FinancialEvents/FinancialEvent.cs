@@ -1,13 +1,14 @@
 ﻿using CostTrackerDomain.Primitives;
+using CostTrackerDomain.Shared;
 using CostTrackerDomain.ValueObjects;
 
 namespace CostTrackerDomain.FinancialEvents;
 
-public class FinancialEvent: AggregateRoot
+public sealed class FinancialEvent: AggregateRoot
 {
     private FinancialEvent(
         Guid id,
-        string note,
+        EventNote note,
         Amount amount,
         DateTime date,
         Guid labelId
@@ -18,13 +19,13 @@ public class FinancialEvent: AggregateRoot
         Date = date;
         LabelId = labelId;
     }
-    public string Note { get; private set; }
+    public EventNote Note { get; private set; }
     public Amount Amount { get; private set; }
     public DateTime Date { get; private set; }
     public Guid LabelId{ get; private set; }
-    public static FinancialEvent CreateEvent(
+    public static Result<FinancialEvent> Create(
         Guid id,
-        string note,
+        EventNote note,
         Amount amount,
         DateTime date,
         Guid labelId) 

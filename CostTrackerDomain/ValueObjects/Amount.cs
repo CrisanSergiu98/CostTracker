@@ -5,13 +5,17 @@ namespace CostTrackerDomain.ValueObjects;
 
 public sealed class Amount : ValueObject
 {
-    public Amount(double value, Currency currency)
+    private Amount(double value, Guid currencyId)
     {
         Value = value;
-        Currency = currency;
+        CurrencyId = currencyId;
     }
     public double Value { get; private set; }
-    public Currency Currency { get; private set; }
+    public Guid CurrencyId { get; private set; }
+    public static Result<Amount> Create(double value, Guid currencyId)
+    {
+        return new Amount(value, currencyId);
+    }
     public override IEnumerable<object> GetAtomicValues()
     {
         yield return new NotImplementedException();
