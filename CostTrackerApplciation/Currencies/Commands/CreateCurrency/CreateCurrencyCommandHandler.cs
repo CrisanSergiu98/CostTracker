@@ -43,6 +43,7 @@ internal sealed class CreateCurrencyCommandHandler : ICommandHandler<CreateCurre
         var currencySymbol = CurrencySymbol.Create(request.CurrencySymbol);       
 
         var currency = Currency.Create(
+            Guid.NewGuid(),
             currencyName.Value,
             currencySymbol.Value);
 

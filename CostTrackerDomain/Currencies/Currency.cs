@@ -20,11 +20,17 @@ public class Currency : AggregateRoot
     public double ValueInDollars { get; private set; }
 
     public static Result<Currency> Create(
+        Guid id,
         CurrencyName name,
         CurrencySymbol symbol)
     {
-        Currency currency = new Currency(Guid.NewGuid(), name, symbol);
+        Currency currency = new Currency(
+            id, 
+            name, 
+            symbol);
+
         //Assign ValueInDollars
+
         return currency;
     }
 }

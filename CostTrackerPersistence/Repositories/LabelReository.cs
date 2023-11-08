@@ -27,6 +27,11 @@ internal sealed class LabelReository : ILabelRepository
         throw new NotImplementedException();
     }
 
+    public Task<Label?> GetById(Guid id, CancellationToken cancellationToken = default)
+    {
+        throw new NotImplementedException();
+    }
+
     public void Remove(Label label)
     {
         throw new NotImplementedException();

@@ -3,7 +3,7 @@ using CostTrackerDomain.Shared;
 
 namespace CostTrackerDomain.ValueObjects;
 
-public class CurrencyName: ValueObject
+public sealed class CurrencyName: ValueObject
 {
     public const int MaxLength = 50;
     private CurrencyName(string value)

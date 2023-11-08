@@ -1,6 +1,4 @@
-﻿using CostTrackerApplciation.Categories.Commands.CreateCategory;
-using CostTrackerDomain.Amounts;
-using CostTrackerPresentation.Abstractions;
+﻿using CostTrackerPresentation.Abstractions;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 

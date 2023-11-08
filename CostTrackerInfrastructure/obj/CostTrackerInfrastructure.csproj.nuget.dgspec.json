@@ -4,14 +4,83 @@
     "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerInfrastructure\\CostTrackerInfrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerInfrastructure\\CostTrackerInfrastructure.csproj": {
+    "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerApplciation\\CostTrackerApplciation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerInfrastructure\\CostTrackerInfrastructure.csproj",
-        "projectName": "CostTrackerInfrastructure",
-        "projectPath": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerInfrastructure\\CostTrackerInfrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerApplciation\\CostTrackerApplciation.csproj",
+        "projectName": "CostTrackerApplciation",
+        "projectPath": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerApplciation\\CostTrackerApplciation.csproj",
         "packagesPath": "C:\\Users\\WASD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerInfrastructure\\obj\\",
+        "outputPath": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerApplciation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\WASD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerDomain\\CostTrackerDomain.csproj": {
+                "projectPath": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerDomain\\CostTrackerDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.1.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerDomain\\CostTrackerDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerDomain\\CostTrackerDomain.csproj",
+        "projectName": "CostTrackerDomain",
+        "projectPath": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerDomain\\CostTrackerDomain.csproj",
+        "packagesPath": "C:\\Users\\WASD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerDomain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\WASD\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +108,79 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerInfrastructure\\CostTrackerInfrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerInfrastructure\\CostTrackerInfrastructure.csproj",
+        "projectName": "CostTrackerInfrastructure",
+        "projectPath": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerInfrastructure\\CostTrackerInfrastructure.csproj",
+        "packagesPath": "C:\\Users\\WASD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerInfrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\WASD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerApplciation\\CostTrackerApplciation.csproj": {
+                "projectPath": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerApplciation\\CostTrackerApplciation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

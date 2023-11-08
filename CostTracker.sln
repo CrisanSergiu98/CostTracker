@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CostTrackerPersistence", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CostTrackerInfrastructure", "CostTrackerInfrastructure\CostTrackerInfrastructure.csproj", "{7AA66540-A8D9-4B0C-BE58-65D0FDB53E29}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostTrackerAPI", "CostTrackerAPI\CostTrackerAPI.csproj", "{1CD5E3AC-55EC-4E54-88C8-440952E61CEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CostTrackerAPI", "CostTrackerAPI\CostTrackerAPI.csproj", "{1CD5E3AC-55EC-4E54-88C8-440952E61CEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostTrackerContracts", "CostTrackerContracts\CostTrackerContracts.csproj", "{7F8CB715-E682-4684-8477-0544778CC84B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +55,10 @@ Global
 		{1CD5E3AC-55EC-4E54-88C8-440952E61CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CD5E3AC-55EC-4E54-88C8-440952E61CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CD5E3AC-55EC-4E54-88C8-440952E61CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F8CB715-E682-4684-8477-0544778CC84B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8CB715-E682-4684-8477-0544778CC84B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8CB715-E682-4684-8477-0544778CC84B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8CB715-E682-4684-8477-0544778CC84B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +71,7 @@ Global
 		{FBA7B8D1-71FC-46DD-B77C-6234F88F449E} = {8B97344D-86BD-4FDA-BF1B-CE3E2DB3FD70}
 		{7AA66540-A8D9-4B0C-BE58-65D0FDB53E29} = {8B97344D-86BD-4FDA-BF1B-CE3E2DB3FD70}
 		{1CD5E3AC-55EC-4E54-88C8-440952E61CEA} = {8B97344D-86BD-4FDA-BF1B-CE3E2DB3FD70}
+		{7F8CB715-E682-4684-8477-0544778CC84B} = {8B97344D-86BD-4FDA-BF1B-CE3E2DB3FD70}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BE9BC90F-39E1-40A4-A027-DD26F8F5BF9F}

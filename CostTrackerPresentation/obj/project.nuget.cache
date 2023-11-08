@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "P7Sce4uVjDVakjfIutzZ3l6mfUDodUmPnCMgqL1/uOSDUaNRkz92i4qcPgj4peIHjtpPqsDxsoXqLMPiRjGSxg==",
+  "dgSpecHash": "SOf01M2mQw1/vR/oZqLecx3thM7SWU90YHZB1pP6m/KXhB+21bDSwtSWSiytvBPXsqMsw/01zt0V+F1eU/PZQA==",
   "success": true,
   "projectFilePath": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerPresentation\\CostTrackerPresentation.csproj",
   "expectedPackageFiles": [
@@ -26,7 +26,7 @@
     "C:\\Users\\WASD\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.1.0\\microsoft.dotnet.platformabstractions.2.1.0.nupkg.sha512",
     "C:\\Users\\WASD\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.2.0\\microsoft.extensions.configuration.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\WASD\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\2.2.0\\microsoft.extensions.dependencyinjection.2.2.0.nupkg.sha512",
-    "C:\\Users\\WASD\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\WASD\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\WASD\\.nuget\\packages\\microsoft.extensions.dependencymodel\\2.1.0\\microsoft.extensions.dependencymodel.2.1.0.nupkg.sha512",
     "C:\\Users\\WASD\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.2.0\\microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\WASD\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.2.0\\microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",

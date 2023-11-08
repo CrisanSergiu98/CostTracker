@@ -7,20 +7,16 @@ namespace CostTrackerPersistence.Repositories;
 internal sealed class CurrencyRepository : ICurrencyRepository
 {
     private readonly ApplicationDBContext _dbContext;
-
-    public CurrencyRepository(ApplicationDBContext context)
-    {
-        _dbContext = context;
-    }
+    private readonly List<Currency> _currencies;
 
     public void Add(Currency currency)
     {
-        throw new NotImplementedException();
+        _currencies.Add(currency);
     }
 
     public Task<Currency?> GetAll(CancellationToken cancellationToken = default)
     {
-        throw new NotImplementedException();
+        return Task.FromResult<_currencies>;
     }
 
     public Task<Currency?> GetById(Guid id, CancellationToken cancellationToken = default)
@@ -28,7 +24,12 @@ internal sealed class CurrencyRepository : ICurrencyRepository
         throw new NotImplementedException();
     }
 
-    public Task<Currency?> GetByName(CurrencyName name, CancellationToken cancellationToken = default)
+    public Task<Currency?> GetByName(string name, CancellationToken cancellationToken = default)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task<Currency?> GetBySymbol(string name, CancellationToken cancellationToken = default)
     {
         throw new NotImplementedException();
     }
