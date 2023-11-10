@@ -1,21 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>c634fa16-2a2b-481a-ad6c-a42cafcf3997</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MediatR" Version="12.1.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\CostTrackerApplciation\CostTrackerApplciation.csproj" />
-    <ProjectReference Include="..\CostTrackerContracts\CostTrackerContracts.csproj" />
-    <ProjectReference Include="..\CostTrackerDomain\CostTrackerDomain.csproj" />
+  <ItemGroup>    <ProjectReference Include="..\CostTrackerApplication\CostTrackerApplication.csproj" />    <ProjectReference Include="..\CostTrackerDomain\CostTrackerDomain.csproj" />
     <ProjectReference Include="..\CostTrackerInfrastructure\CostTrackerInfrastructure.csproj" />
+    <ProjectReference Include="..\CostTrackerPersistence\CostTrackerPersistence.csproj" />
     <ProjectReference Include="..\CostTrackerPresentation\CostTrackerPresentation.csproj" />
   </ItemGroup>
 

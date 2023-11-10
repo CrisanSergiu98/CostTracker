@@ -1,22 +1,18 @@
-﻿using CostTrackerDomain.Currencies;
-using CostTrackerDomain.Repositories;
-using CostTrackerDomain.ValueObjects;
+﻿using CostTrackerDomain.Abstractions.Repositories;
+using CostTrackerDomain.Aggregates;
 
 namespace CostTrackerPersistence.Repositories;
 
 internal sealed class CurrencyRepository : ICurrencyRepository
 {
-    private readonly ApplicationDBContext _dbContext;
-    private readonly List<Currency> _currencies;
-
     public void Add(Currency currency)
     {
-        _currencies.Add(currency);
+        throw new NotImplementedException();
     }
 
     public Task<Currency?> GetAll(CancellationToken cancellationToken = default)
     {
-        return Task.FromResult<_currencies>;
+        throw new NotImplementedException();
     }
 
     public Task<Currency?> GetById(Guid id, CancellationToken cancellationToken = default)

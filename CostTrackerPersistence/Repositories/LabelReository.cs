@@ -1,15 +1,15 @@
-﻿using CostTrackerDomain.Labels;
-using CostTrackerDomain.Repositories;
+﻿using CostTrackerDomain.Abstractions.Repositories;
+using CostTrackerDomain.Aggregates;
 
 namespace CostTrackerPersistence.Repositories;
 
 internal sealed class LabelReository : ILabelRepository
 {
-    private readonly ApplicationDBContext _dbContext;
+    //private readonly ApplicationDBContext _dbContext;
 
-    public LabelReository(ApplicationDBContext context)
+    public LabelReository(/*ApplicationDBContext context*/)
     {
-        _dbContext = context;
+        //_dbContext = context;
     }
 
     public void Add(Label label)
@@ -17,12 +17,12 @@ internal sealed class LabelReository : ILabelRepository
         throw new NotImplementedException();
     }
 
-    public Task<Label?> GetAll(int userId)
+    public Task<Label?> GetAll(int userId, CancellationToken cancellationToken = default)
     {
         throw new NotImplementedException();
     }
 
-    public Task<Label?> GetAllWithEvents(int userId)
+    public Task<Label?> GetAllWithEvents(int userId, CancellationToken cancellationToken = default)
     {
         throw new NotImplementedException();
     }

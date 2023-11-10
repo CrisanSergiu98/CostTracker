@@ -1,15 +1,14 @@
-﻿using CostTrackerDomain.FinancialEvents;
-using CostTrackerDomain.Repositories;
-using Microsoft.EntityFrameworkCore.ChangeTracking;
+﻿using CostTrackerDomain.Abstractions.Repositories;
+using CostTrackerDomain.Aggregates;
 
 namespace CostTrackerPersistence.Repositories;
 
 internal sealed class FinancialEventRepository : IFinancialEventRepository
 {
-    private readonly ApplicationDBContext _dbContext;
-    public FinancialEventRepository(ApplicationDBContext context)
+    //private readonly ApplicationDBContext _dbContext;
+    public FinancialEventRepository(/*ApplicationDBContext context*/)
     {
-        _dbContext = context;
+        //_dbContext = context;
     }
     public void Add(FinancialEvent label)
     {

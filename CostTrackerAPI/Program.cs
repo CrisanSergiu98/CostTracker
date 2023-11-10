@@ -1,16 +1,13 @@
-using CostTrackerApplciation;
-using CostTrackerApplciation.Services.Authentication;
+using CostTrackerApplication;
 using CostTrackerInfrastructure;
+using CostTrackerPersistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddPersistence();
 
-builder.Services.AddMediatR(cfg =>
-{
-    cfg.RegisterServicesFromAssembly(CostTrackerApplciation.AssemblyReference.Assembly);
-});
 //Configure Controller outside the project so we can define the controllers in the presentation layer
 builder
     .Services

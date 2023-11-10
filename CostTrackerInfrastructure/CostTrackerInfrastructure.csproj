@@ -13,7 +13,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CostTrackerApplciation\CostTrackerApplciation.csproj" />
+    <ProjectReference Include="..\CostTrackerApplication\CostTrackerApplication.csproj" />
+    <ProjectReference Include="..\CostTrackerPersistence\CostTrackerPersistence.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,5 +1,5 @@
-﻿using CostTrackerApplciation.Abstractions.Authentication;
-using CostTrackerApplciation.Abstractions.Services;
+﻿using CostTrackerApplication.Abstractions.Authentication;
+using CostTrackerApplication.Abstractions.Services;
 using CostTrackerInfrastructure.Authentication;
 using CostTrackerInfrastructure.Services;
 using Microsoft.Extensions.DependencyInjection;
@@ -12,7 +12,7 @@ public static class DependencyInjection
     public static IServiceCollection AddInfrastructure(
         this IServiceCollection services,
         ConfigurationManager configuartion)
-    {
+    {        
         services.Configure<JwtSettings>(configuartion.GetSection(JwtSettings.SecctionName));
 
         services.AddSingleton<IJwtTokenGenerator, JwtTokenGenerator>();

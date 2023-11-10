@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "SOf01M2mQw1/vR/oZqLecx3thM7SWU90YHZB1pP6m/KXhB+21bDSwtSWSiytvBPXsqMsw/01zt0V+F1eU/PZQA==",
+  "dgSpecHash": "jWRC7c+Zk9h/Q+gF4N21hSSKCavfT9MgtiwcSGRTvqrrYCC62ZTU0+O8M8ezGmt0mxmhXegI5ixL1cULEb0LHg==",
   "success": true,
   "projectFilePath": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerPresentation\\CostTrackerPresentation.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\WASD\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
-    "C:\\Users\\WASD\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\WASD\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\WASD\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\WASD\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
     "C:\\Users\\WASD\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\WASD\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\WASD\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",

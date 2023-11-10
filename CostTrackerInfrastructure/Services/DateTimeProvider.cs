@@ -1,4 +1,4 @@
-﻿using CostTrackerApplciation.Abstractions.Services;
+﻿using CostTrackerApplication.Abstractions.Services;
 
 namespace CostTrackerInfrastructure.Services;
 

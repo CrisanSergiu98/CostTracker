@@ -1,5 +1,5 @@
-﻿using CostTrackerApplciation.Abstractions.Authentication;
-using CostTrackerApplciation.Abstractions.Services;
+﻿using CostTrackerApplication.Abstractions.Authentication;
+using CostTrackerApplication.Abstractions.Services;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;

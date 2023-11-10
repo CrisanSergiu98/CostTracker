@@ -4,14 +4,14 @@
     "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerPresentation\\CostTrackerPresentation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerApplciation\\CostTrackerApplciation.csproj": {
+    "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerApplication\\CostTrackerApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerApplciation\\CostTrackerApplciation.csproj",
-        "projectName": "CostTrackerApplciation",
-        "projectPath": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerApplciation\\CostTrackerApplciation.csproj",
+        "projectUniqueName": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerApplication\\CostTrackerApplication.csproj",
+        "projectName": "CostTrackerApplication",
+        "projectPath": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerApplication\\CostTrackerApplication.csproj",
         "packagesPath": "C:\\Users\\WASD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerApplciation\\obj\\",
+        "outputPath": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\WASD\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,7 +46,11 @@
           "dependencies": {
             "MediatR": {
               "target": "Package",
-              "version": "[12.1.1, )"
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
@@ -152,8 +156,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerApplciation\\CostTrackerApplciation.csproj": {
-                "projectPath": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerApplciation\\CostTrackerApplciation.csproj"
+              "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerApplication\\CostTrackerApplication.csproj": {
+                "projectPath": "C:\\Users\\WASD\\Documents\\Clone\\CostTracker\\CostTrackerApplication\\CostTrackerApplication.csproj"
               }
             }
           }
@@ -170,7 +174,7 @@
           "dependencies": {
             "MediatR": {
               "target": "Package",
-              "version": "[12.1.1, )"
+              "version": "[11.1.0, )"
             },
             "Microsoft.AspNetCore.Mvc.Core": {
               "target": "Package",

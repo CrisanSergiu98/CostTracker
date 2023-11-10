@@ -19,6 +19,5 @@ public sealed class Amount : ValueObject
     public override IEnumerable<object> GetAtomicValues()
     {
         yield return new NotImplementedException();
-    }
-    
+    }    
 }
