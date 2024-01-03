@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CostTrackerDomain.Aggregates;
+using Microsoft.EntityFrameworkCore;
 
 namespace CostTrackerPersistence;
 
@@ -8,4 +9,6 @@ public class ApplicationDBContext: DbContext
     {
         optionsBuilder.UseSqlServer();
     }
+
+    public DbSet<Label> Labels { get; set; } = null!;
 }

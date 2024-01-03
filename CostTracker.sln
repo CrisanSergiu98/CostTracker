@@ -15,7 +15,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CostTrackerInfrastructure",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CostTrackerAPI", "CostTrackerAPI\CostTrackerAPI.csproj", "{1CD5E3AC-55EC-4E54-88C8-440952E61CEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CostTrackerApplication", "CostTrackerApplication\CostTrackerApplication.csproj", "{3AF5E293-73D8-4014-B7FD-815942A1297D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CostTrackerApplication", "CostTrackerApplication\CostTrackerApplication.csproj", "{3AF5E293-73D8-4014-B7FD-815942A1297D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{DB2C3656-C3A9-4283-8409-0DF4386AE9E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainModels", "DomainModels", "{78164895-CA82-4CE9-9912-8D3A64FDCA8F}"
+	ProjectSection(SolutionItems) = preProject
+		Aggregate.Label.md = Aggregate.Label.md
+		Aggregate.User.md = Aggregate.User.md
+		Agregate.Currency.md = Agregate.Currency.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{AA4B1721-0AE3-44C1-BA22-A2D78D6313AC}"
+	ProjectSection(SolutionItems) = preProject
+		CommandsAndQueries.md = CommandsAndQueries.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -58,6 +72,9 @@ Global
 		{7AA66540-A8D9-4B0C-BE58-65D0FDB53E29} = {8B97344D-86BD-4FDA-BF1B-CE3E2DB3FD70}
 		{1CD5E3AC-55EC-4E54-88C8-440952E61CEA} = {8B97344D-86BD-4FDA-BF1B-CE3E2DB3FD70}
 		{3AF5E293-73D8-4014-B7FD-815942A1297D} = {8B97344D-86BD-4FDA-BF1B-CE3E2DB3FD70}
+		{DB2C3656-C3A9-4283-8409-0DF4386AE9E6} = {8B97344D-86BD-4FDA-BF1B-CE3E2DB3FD70}
+		{78164895-CA82-4CE9-9912-8D3A64FDCA8F} = {DB2C3656-C3A9-4283-8409-0DF4386AE9E6}
+		{AA4B1721-0AE3-44C1-BA22-A2D78D6313AC} = {DB2C3656-C3A9-4283-8409-0DF4386AE9E6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BE9BC90F-39E1-40A4-A027-DD26F8F5BF9F}

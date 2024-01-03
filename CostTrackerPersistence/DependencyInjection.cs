@@ -14,8 +14,7 @@ public static class DependencyInjection
         //services.AddDbContext<ApplicationDBContext>(options => options.UseSqlServer(configuration.GetConnectionString("Default")););
         services.AddScoped<IUserRepository, UserRepository>();
         services.AddScoped<ILabelRepository, LabelReository>();
-        services.AddScoped<ICurrencyRepository, CurrencyRepository>();
-        services.AddScoped<IFinancialEventRepository, FinancialEventRepository>();        
+        services.AddDbContext<ApplicationDBContext>();
 
         return services;
     }

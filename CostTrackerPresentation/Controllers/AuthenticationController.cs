@@ -1,10 +1,10 @@
-﻿using CostTrackerApplication.Users.Commands;
-using CostTrackerApplication.Users.Queries;
+﻿using CostTrackerApplication.Users.Commands.RegisterUser;
+using CostTrackerApplication.Users.Queries.LoginUser;
 using CostTrackerPresentation.Abstractions;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CostTrackerPresentation;
+namespace CostTrackerPresentation.Controllers;
 
 [Route("api/auth")]
 public class AuthenticationController : ApiController

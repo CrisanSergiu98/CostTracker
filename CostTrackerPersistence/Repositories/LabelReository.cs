@@ -5,35 +5,40 @@ namespace CostTrackerPersistence.Repositories;
 
 internal sealed class LabelReository : ILabelRepository
 {
-    //private readonly ApplicationDBContext _dbContext;
+    private List<Label> _labels = new();
+    private readonly ApplicationDBContext _dbContext;
 
-    public LabelReository(/*ApplicationDBContext context*/)
+    public LabelReository(ApplicationDBContext context)
     {
-        //_dbContext = context;
+        _dbContext = context;
     }
 
     public void Add(Label label)
     {
-        throw new NotImplementedException();
+        _dbContext.Add(label);
+        _dbContext.SaveChanges();
     }
 
-    public Task<Label?> GetAll(int userId, CancellationToken cancellationToken = default)
+    public Task<Label?> GetAll(Guid userId, CancellationToken cancellationToken = default)
     {
-        throw new NotImplementedException();
-    }
-
-    public Task<Label?> GetAllWithEvents(int userId, CancellationToken cancellationToken = default)
-    {
-        throw new NotImplementedException();
+        return Task.FromResult(_labels.SingleOrDefault(u => u.UserId == userId));
     }
 
     public Task<Label?> GetById(Guid id, CancellationToken cancellationToken = default)
     {
-        throw new NotImplementedException();
-    }
+        
+        return Task.FromResult(_labels.SingleOrDefault(u => u.Id == id));
+        
+    } 
 
     public void Remove(Label label)
     {
-        throw new NotImplementedException();
+        _labels.Remove(label);
+    }
+
+    public void UpdateLabel(Label label, CancellationToken cancellationToken = default)
+    {
+        var old = _labels.SingleOrDefault(u => u.Id == label.Id);
+        _labels[_labels.IndexOf(old)] = label;
     }
 }

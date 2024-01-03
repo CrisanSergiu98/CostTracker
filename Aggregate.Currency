@@ -1,0 +1,19 @@
+# Domain Models
+
+## User
+
+```csharp
+class User: AggregateRoot
+{
+	User Create();	
+}
+```
+
+```json
+{
+	"id": "00000000-0000-0000-0000-00000000",
+	"fistName": "Mancatzash",
+	"lastName": "Fashu";	
+	"passwordHash": "00000000-0000-0000-0000-00000000"	
+}
+```
